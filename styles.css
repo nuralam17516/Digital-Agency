@@ -60,3 +60,36 @@
     background-color: red;
     color: white;
 }
+/* service container start from here */
+.service-container{
+    height: 100vh;
+    color: white;
+    background-image: url('./asset/image/footer-bg.png'),linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.icon{
+    width: 70px;
+    margin-bottom: 20px;
+}
+.box{
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.service-description{
+    width: 50%;
+}
+.first-two-box{
+    display: flex;
+    gap: 3px;
+}
