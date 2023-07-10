@@ -91,5 +91,21 @@
 }
 .first-two-box{
     display: flex;
-    gap: 3px;
+    gap: 5px;
+    margin-top: 5px;
+}
+.author{
+    width: 100px;
+    border-radius: 50px;
+}
+.author-detail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.author-container{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
 }
