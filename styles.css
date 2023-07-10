@@ -200,19 +200,28 @@
     gap: 30px;
 }
 .footer-container{
-    height: 50vh;
-    align-items: center;
-    padding: 100px;
     display: flex;
     justify-content: space-around;
-    background-image: url('./asset/image/footer-bg.png'), linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.983));
-    background-blend-mode: overlay;
-    background-repeat: no-repeat;
-    color:white;
 }
 .footer-descripton{
     width: 300px;
 }
 .copyright{
     color: white;
+}
+.all-footer{
+    height: 50vh;
+    align-items: center;
+    padding: 100px;
+    background-image: url('./asset/image/footer-bg.png'), linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.983));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    color:white;
+}
+.copyright{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 200px;
 }
